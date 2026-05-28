@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://open-foot.github.io/assets/open-foot/logo-light.png" alt="Openfoot" width="190" />
+  <img src="https://raw.githubusercontent.com/open-foot/assets/refs/heads/main/light-logo.png" alt="Openfoot" width="190" />
 </p>
 
 <p align="center">
