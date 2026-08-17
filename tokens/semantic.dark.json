@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "color": {
+    "background": { "canvas": "#07100D", "surface": "#102019", "subtle": "#172B22", "inverse": "#F7F8F2" },
+    "text": { "primary": "#F7F8F2", "secondary": "#C6CEC4", "muted": "#9EAAA2", "inverse": "#07100D", "accent": "#C8FF3D" },
+    "border": { "default": "#294137", "strong": "#456054", "focus": "#C8FF3D" },
+    "action": { "primary": "#C8FF3D", "primaryText": "#07100D", "secondary": "#172B22", "secondaryText": "#F7F8F2", "accent": "#C8FF3D" },
+    "status": { "success": "#69C38E", "warning": "#E6B862", "danger": "#F07A72", "info": "#70A9E6", "live": "#F07A72" }
+  }
+}

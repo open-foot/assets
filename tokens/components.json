@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "button": {
+    "primary": { "background": "{color.action.primary}", "text": "{color.action.primaryText}", "radius": "{radius.control}" },
+    "secondary": { "background": "{color.action.secondary}", "text": "{color.action.secondaryText}", "radius": "{radius.control}" }
+  },
+  "panel": { "background": "{color.background.surface}", "border": "{color.border.default}", "radius": "{radius.panel}" },
+  "focusRing": { "color": "{color.border.focus}", "offset": 2 }
+}

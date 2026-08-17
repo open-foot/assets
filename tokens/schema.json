@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openfoot.dev/schemas/design-token.json",
+  "title": "OpenFoot design token document",
+  "type": "object",
+  "required": ["version", "reviewed", "tokens"],
+  "properties": {
+    "version": { "type": "string" },
+    "reviewed": { "type": "string", "format": "date" },
+    "tokens": { "$ref": "#/$defs/tokenGroup" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "token": {
+      "type": "object",
+      "required": ["value", "type", "description"],
+      "properties": {
+        "value": { "type": ["string", "number"] },
+        "type": { "enum": ["color", "dimension", "duration", "fontFamily", "string"] },
+        "description": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "tokenGroup": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "anyOf": [
+          { "$ref": "#/$defs/token" },
+          { "$ref": "#/$defs/tokenGroup" }
+        ]
+      }
+    }
+  }
+}

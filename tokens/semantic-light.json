@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "reviewed": "2026-08-17",
+  "tokens": {
+    "canvas": { "value": "#F7F8F2", "type": "color", "description": "Light application canvas." },
+    "surface": { "value": "#FFFFFF", "type": "color", "description": "Light raised surface." },
+    "text": { "value": "#07100D", "type": "color", "description": "Primary light-theme text." },
+    "mutedText": { "value": "#66736C", "type": "color", "description": "Secondary light-theme text." },
+    "border": { "value": "#DDE1D3", "type": "color", "description": "Light-theme boundary." },
+    "focus": { "value": "#244C3B", "type": "color", "description": "Light-theme focus indicator." },
+    "accent": { "value": "#C8FF3D", "type": "color", "description": "Brand accent." },
+    "danger": { "value": "#C63D37", "type": "color", "description": "Danger state." }
+  }
+}

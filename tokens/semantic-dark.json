@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "reviewed": "2026-08-17",
+  "tokens": {
+    "canvas": { "value": "#07100D", "type": "color", "description": "Dark application canvas." },
+    "surface": { "value": "#102019", "type": "color", "description": "Dark raised surface." },
+    "text": { "value": "#F7F8F2", "type": "color", "description": "Primary dark-theme text." },
+    "mutedText": { "value": "#9EAAA2", "type": "color", "description": "Secondary dark-theme text." },
+    "border": { "value": "#294137", "type": "color", "description": "Dark-theme boundary." },
+    "focus": { "value": "#C8FF3D", "type": "color", "description": "Dark-theme focus indicator." },
+    "accent": { "value": "#C8FF3D", "type": "color", "description": "Brand accent." },
+    "danger": { "value": "#FF817A", "type": "color", "description": "Dark-theme danger state." }
+  }
+}

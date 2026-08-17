@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "color": { "pitchBlack": "#07100D", "floodlightVolt": "#C8FF3D", "clubhouse50": "#F7F8F2", "clubhouse100": "#EEF0E6", "clubhouse200": "#DDE1D3", "pitch700": "#244C3B", "pitch800": "#15382B", "white": "#FFFFFF", "red600": "#C63D37", "amber600": "#A96610", "blue600": "#2463A9" },
+  "space": { "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24, "8": 32, "10": 40, "12": 48, "16": 64, "20": 80 },
+  "radius": { "small": 8, "control": 12, "panel": 20, "pill": 999 },
+  "motion": { "duration": { "fast": 120, "normal": 180, "slow": 260 }, "easing": { "standard": "cubic-bezier(0.2, 0, 0, 1)" } },
+  "type": { "interface": "Inter", "display": "Inter Tight", "fallback": "system-ui, sans-serif" }
+}

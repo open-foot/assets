@@ -1,0 +1,8 @@
+{
+  "name": "@openfoot/design-assets",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate-design-assets.mjs",
+    "test": "node --test tests/design-system.test.mjs"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "reviewed": "2026-08-17",
+  "tokens": {
+    "color": {
+      "pitchBlack": { "value": "#07100D", "type": "color", "description": "Primary ink and dark canvas." },
+      "floodlightVolt": { "value": "#C8FF3D", "type": "color", "description": "Bounded brand accent." },
+      "clubhouse": { "value": "#F7F8F2", "type": "color", "description": "Warm light canvas." },
+      "white": { "value": "#FFFFFF", "type": "color", "description": "Raised light surface." },
+      "green": { "value": "#246B45", "type": "color", "description": "Success state." },
+      "amber": { "value": "#A96610", "type": "color", "description": "Warning state." },
+      "red": { "value": "#C63D37", "type": "color", "description": "Danger state." },
+      "blue": { "value": "#2463A9", "type": "color", "description": "Neutral information state." }
+    },
+    "space": {
+      "2": { "value": 2, "type": "dimension", "description": "Optical micro spacing." },
+      "4": { "value": 4, "type": "dimension", "description": "Base spacing unit." },
+      "8": { "value": 8, "type": "dimension", "description": "Compact spacing." },
+      "16": { "value": 16, "type": "dimension", "description": "Default component spacing." },
+      "24": { "value": 24, "type": "dimension", "description": "Section spacing." }
+    },
+    "radius": {
+      "control": { "value": 10, "type": "dimension", "description": "Control corner radius." },
+      "panel": { "value": 16, "type": "dimension", "description": "Panel corner radius." },
+      "feature": { "value": 24, "type": "dimension", "description": "Feature corner radius." },
+      "pill": { "value": 999, "type": "dimension", "description": "Pill radius." }
+    },
+    "motion": {
+      "fast": { "value": 120, "type": "duration", "description": "Immediate feedback." },
+      "standard": { "value": 180, "type": "duration", "description": "Default transition." },
+      "deliberate": { "value": 280, "type": "duration", "description": "Spatial transition." }
+    }
+  }
+}
