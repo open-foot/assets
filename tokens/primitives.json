@@ -3,14 +3,14 @@
   "reviewed": "2026-08-18",
   "tokens": {
     "color": {
-      "communityInk": { "value": "#21302E", "type": "color", "description": "Primary light-theme ink and dark action." },
+      "communityInk": { "value": "#213130", "type": "color", "description": "Primary light-theme ink and footer surface." },
       "brandMint": { "value": "#B0EC9C", "type": "color", "description": "Bounded priority action and selection accent." },
-      "canvas": { "value": "#F5F3EF", "type": "color", "description": "Warm application canvas." },
-      "paper": { "value": "#FFFEFA", "type": "color", "description": "Primary reading surface." },
-      "night": { "value": "#172624", "type": "color", "description": "Footer and football focus surface." },
-      "lavender": { "value": "#EEE8F8", "type": "color", "description": "Editorial and governance support field." },
-      "mint": { "value": "#D9F4CC", "type": "color", "description": "Positive and ready support field." },
-      "peach": { "value": "#FFE2D7", "type": "color", "description": "Attention and transfer support field." },
+      "canvas": { "value": "#FEFDFB", "type": "color", "description": "Buffer-calibrated application canvas." },
+      "paper": { "value": "#FFFFFF", "type": "color", "description": "Primary reading surface." },
+      "night": { "value": "#213130", "type": "color", "description": "Footer and football focus surface." },
+      "lavender": { "value": "#F1EBFF", "type": "color", "description": "Governance support field." },
+      "mint": { "value": "#D8F1D0", "type": "color", "description": "Positive and ready support field." },
+      "peach": { "value": "#FFF6E6", "type": "color", "description": "Attention and transfer support field." },
       "green": { "value": "#315E38", "type": "color", "description": "Success foreground." },
       "amber": { "value": "#66500D", "type": "color", "description": "Warning foreground." },
       "red": { "value": "#B33A48", "type": "color", "description": "Danger foreground." },
@@ -24,9 +24,9 @@
       "24": { "value": 24, "type": "dimension", "description": "Section spacing." }
     },
     "radius": {
-      "control": { "value": 12, "type": "dimension", "description": "Control corner radius." },
-      "panel": { "value": 16, "type": "dimension", "description": "Panel corner radius." },
-      "feature": { "value": 24, "type": "dimension", "description": "Feature corner radius." },
+      "control": { "value": 10, "type": "dimension", "description": "Control corner radius." },
+      "panel": { "value": 20, "type": "dimension", "description": "Panel corner radius." },
+      "feature": { "value": 20, "type": "dimension", "description": "Feature corner radius." },
       "pill": { "value": 999, "type": "dimension", "description": "Pill radius." }
     },
     "motion": {

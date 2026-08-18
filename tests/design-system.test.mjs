@@ -148,17 +148,21 @@ test("documents the approved identity and message hierarchy", async () => {
   assert.match(design, /Explore the Studio/);
 });
 
-test("publishes the warm editorial palette and typography", async () => {
+test("publishes the measured Buffer palette and Figtree typography", async () => {
   const primitives = await readJson("tokens/primitives.json");
   const light = await readJson("tokens/semantic-light.json");
   const foundations = await readJson("tokens/foundations.json");
 
-  assert.equal(primitives.tokens.color.communityInk.value, "#21302E");
+  assert.equal(primitives.tokens.color.communityInk.value, "#213130");
   assert.equal(primitives.tokens.color.brandMint.value, "#B0EC9C");
-  assert.equal(light.tokens.canvas.value, "#F5F3EF");
-  assert.equal(light.tokens.lavender.value, "#EEE8F8");
-  assert.equal(light.tokens.peach.value, "#FFE2D7");
+  assert.equal(light.tokens.canvas.value, "#FEFDFB");
+  assert.equal(light.tokens.paper.value, "#FFFFFF");
+  assert.equal(light.tokens.text.value, "#213130");
+  assert.equal(light.tokens.controlBorder.value, "#8C8B88");
+  assert.equal(light.tokens.lavender.value, "#F1EBFF");
+  assert.equal(light.tokens.peach.value, "#FFF6E6");
   assert.equal(foundations.type.interface, "Figtree");
-  assert.equal(foundations.type.editorial, "Newsreader");
+  assert.equal(foundations.type.display, "Figtree");
+  assert.equal(foundations.type.editorial, "Figtree");
   assert.equal(foundations.type.technical, "Geist Mono");
 });

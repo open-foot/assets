@@ -1,7 +1,7 @@
 # OpenFoot design system
 
 **Version:** 2.0.0  
-**Direction:** Warm editorial · Quiet football product  
+**Direction:** Buffer-calibrated · Clear football product
 **Palette:** Brand Mint
 
 This document is the human-readable authority for OpenFoot's identity and
@@ -29,7 +29,9 @@ recognizable gesture and relationship to the ball. Optical correction and
 vector reconstruction are permitted; replacement with a generic monogram or a
 new mascot is not.
 
-The default expression pairs Community Ink with Brand Mint. The mark must
+The default expression pairs Community Ink with Brand Mint. The measured light
+system uses Canvas `#FEFDFB`, Paper `#FFFFFF`, Ink `#213130`, action
+`#283E3D`, and Mint `#B0EC9C`. The mark must
 also work in monochrome, at favicon size, and over both semantic canvas colors.
 Use derivatives declared in `brand/manifest.json`; do not recolor exported PNGs
 ad hoc.
@@ -42,9 +44,10 @@ only and have no active frontend consumer.
 
 ## Color: Brand Mint
 
-The core palette begins with Community Ink `#21302E` and Brand Mint
-`#B0EC9C`. A warm `#F5F3EF` canvas, Paper, Night, Lavender, Fresh Mint, and
-Warm Peach support those anchors. Semantic purpose—not visual similarity—chooses a token. Success,
+The core palette begins with Community Ink `#213130` and Brand Mint
+`#B0EC9C`. Canvas `#FEFDFB`, Paper `#FFFFFF`, Night, Lavender, Fresh Mint, and
+Warm Peach support those anchors. These values and their interface proportions
+are calibrated from Buffer's current public system. Semantic purpose, not visual similarity, chooses a token. Success,
 warning, danger, live, selected, and brand emphasis remain separate roles.
 
 Light and Dark expose the same semantic paths. Dark is not a blanket inversion:
@@ -54,15 +57,18 @@ expression.
 
 ## Typography
 
-Figtree owns display headings, interface, and reading text. Newsreader is a
-short editorial accent. Geist Mono supports technical and comparable football
-data. Numerical football data uses tabular figures. Fonts are locally served; the
-interface must not depend on a runtime request to a font CDN.
+Figtree owns display headings, interface, and reading text. The public display
+scale tops out at `75.8px`, section headings at `56.8px`, body copy at `18px`,
+and compact product forms at `14.3px`. Geist Mono supports technical and
+comparable football data. Numerical football data uses tabular figures. Fonts
+are locally served; the interface must not depend on a runtime request to a font
+CDN. Stolzl is not redistributed because it requires its own license; Figtree
+uses the same measured layout roles until a licensed source is available.
 
 ## Shape, depth, icons, and motion
 
-Controls are comfortably rounded, panels are soft but structured, and pills
-are reserved for compact statuses or filters. Borders carry most separation;
+Compact controls use 6px or 10px radii, feature panels use 20px, and pills are
+reserved for prominent actions, compact statuses, or filters. Borders carry most separation;
 shadows are quiet and contextual. Lucide is the default interface icon family.
 Icons support text and structure rather than decorate every label.
 

@@ -11,7 +11,7 @@
     "controlBorder": { "value": "#68716D", "type": "color", "description": "Interactive control boundary." },
     "focus": { "value": "#B0EC9C", "type": "color", "description": "Dark-theme focus indicator." },
     "accent": { "value": "#B0EC9C", "type": "color", "description": "Brand Mint accent." },
-    "lavender": { "value": "#2A2237", "type": "color", "description": "Editorial and governance field." },
+    "lavender": { "value": "#2A2237", "type": "color", "description": "Governance field." },
     "mint": { "value": "#213625", "type": "color", "description": "Positive support field." },
     "peach": { "value": "#39251F", "type": "color", "description": "Attention support field." },
     "danger": { "value": "#F2BAC3", "type": "color", "description": "Danger state." }
