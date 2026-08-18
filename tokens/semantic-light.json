@@ -1,14 +1,19 @@
 {
-  "version": "1.0.0",
-  "reviewed": "2026-08-17",
+  "version": "2.0.0",
+  "reviewed": "2026-08-18",
   "tokens": {
-    "canvas": { "value": "#F7F8F2", "type": "color", "description": "Light application canvas." },
-    "surface": { "value": "#FFFFFF", "type": "color", "description": "Light raised surface." },
-    "text": { "value": "#07100D", "type": "color", "description": "Primary light-theme text." },
-    "mutedText": { "value": "#66736C", "type": "color", "description": "Secondary light-theme text." },
-    "border": { "value": "#DDE1D3", "type": "color", "description": "Light-theme boundary." },
-    "focus": { "value": "#244C3B", "type": "color", "description": "Light-theme focus indicator." },
-    "accent": { "value": "#C8FF3D", "type": "color", "description": "Brand accent." },
-    "danger": { "value": "#C63D37", "type": "color", "description": "Danger state." }
+    "canvas": { "value": "#F5F3EF", "type": "color", "description": "Light application canvas." },
+    "paper": { "value": "#FFFEFA", "type": "color", "description": "Primary reading surface." },
+    "surface": { "value": "#FFFFFF", "type": "color", "description": "Light grouped surface." },
+    "text": { "value": "#21302E", "type": "color", "description": "Primary light-theme text." },
+    "mutedText": { "value": "#5E6663", "type": "color", "description": "Secondary light-theme text." },
+    "border": { "value": "#DDD9D2", "type": "color", "description": "Light-theme hairline boundary." },
+    "controlBorder": { "value": "#918C84", "type": "color", "description": "Interactive control boundary." },
+    "focus": { "value": "#2F6B3A", "type": "color", "description": "Light-theme focus indicator." },
+    "accent": { "value": "#B0EC9C", "type": "color", "description": "Brand Mint accent." },
+    "lavender": { "value": "#EEE8F8", "type": "color", "description": "Editorial and governance field." },
+    "mint": { "value": "#D9F4CC", "type": "color", "description": "Positive support field." },
+    "peach": { "value": "#FFE2D7", "type": "color", "description": "Attention support field." },
+    "danger": { "value": "#B33A48", "type": "color", "description": "Danger state." }
   }
 }

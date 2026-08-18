@@ -1,8 +1,8 @@
 # OpenFoot design system
 
-**Version:** 1.0.0  
-**Direction:** Traditional Sports · Soft Clubhouse  
-**Palette:** Floodlight Volt
+**Version:** 2.0.0  
+**Direction:** Warm editorial · Quiet football product  
+**Palette:** Brand Mint
 
 This document is the human-readable authority for OpenFoot's identity and
 interface foundations. Machine-readable values live in `tokens/`; production
@@ -29,7 +29,7 @@ recognizable gesture and relationship to the ball. Optical correction and
 vector reconstruction are permitted; replacement with a generic monogram or a
 new mascot is not.
 
-The default expression pairs deep floodlit green-black with Volt. The mark must
+The default expression pairs Community Ink with Brand Mint. The mark must
 also work in monochrome, at favicon size, and over both semantic canvas colors.
 Use derivatives declared in `brand/manifest.json`; do not recolor exported PNGs
 ad hoc.
@@ -37,14 +37,14 @@ ad hoc.
 The approved transparent masters are `brand/mark/openfoot-mark.svg` and its
 inverse. They are deterministic exports of the approved raster geometry, not a
 newly generated silhouette. Governed horizontal lockups pair that geometry with
-the approved Inter Tight treatment. Root lockup PNGs remain migration evidence
+the approved Figtree treatment. Root lockup PNGs remain migration evidence
 only and have no active frontend consumer.
 
-## Color: Floodlight Volt
+## Color: Brand Mint
 
-The core palette begins with Pitch Black `#07100D` and Floodlight Volt
-`#C8FF3D`. Warm clubhouse surfaces and restrained football greens support those
-anchors. Semantic purpose—not visual similarity—chooses a token. Success,
+The core palette begins with Community Ink `#21302E` and Brand Mint
+`#B0EC9C`. A warm `#F5F3EF` canvas, Paper, Night, Lavender, Fresh Mint, and
+Warm Peach support those anchors. Semantic purpose—not visual similarity—chooses a token. Success,
 warning, danger, live, selected, and brand emphasis remain separate roles.
 
 Light and Dark expose the same semantic paths. Dark is not a blanket inversion:
@@ -54,8 +54,9 @@ expression.
 
 ## Typography
 
-Inter Tight owns display headings. Inter owns interface and reading text.
-Numerical football data uses tabular figures. Fonts are locally served; the
+Figtree owns display headings, interface, and reading text. Newsreader is a
+short editorial accent. Geist Mono supports technical and comparable football
+data. Numerical football data uses tabular figures. Fonts are locally served; the
 interface must not depend on a runtime request to a font CDN.
 
 ## Shape, depth, icons, and motion

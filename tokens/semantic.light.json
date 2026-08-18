@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "color": {
-    "background": { "canvas": "#F7F8F2", "surface": "#FFFFFF", "subtle": "#EEF0E6", "inverse": "#07100D" },
-    "text": { "primary": "#07100D", "secondary": "#405047", "muted": "#66736C", "inverse": "#FFFFFF", "accent": "#244C3B" },
-    "border": { "default": "#DDE1D3", "strong": "#AEB8A9", "focus": "#244C3B" },
-    "action": { "primary": "#07100D", "primaryText": "#C8FF3D", "secondary": "#FFFFFF", "secondaryText": "#07100D", "accent": "#C8FF3D" },
-    "status": { "success": "#246B45", "warning": "#A96610", "danger": "#C63D37", "info": "#2463A9", "live": "#C63D37" }
+    "background": { "canvas": "#F5F3EF", "paper": "#FFFEFA", "surface": "#FFFFFF", "subtle": "#ECEAE4", "inverse": "#21302E", "night": "#172624", "lavender": "#EEE8F8", "mint": "#D9F4CC", "peach": "#FFE2D7" },
+    "text": { "primary": "#21302E", "secondary": "#5E6663", "muted": "#5E6663", "inverse": "#F2F4F1", "accent": "#2F6B3A" },
+    "border": { "default": "#DDD9D2", "strong": "#CAC5BD", "control": "#918C84", "focus": "#2F6B3A" },
+    "action": { "primary": "#B0EC9C", "primaryText": "#21302E", "secondary": "#FFFFFF", "secondaryText": "#21302E", "accent": "#B0EC9C" },
+    "status": { "success": "#315E38", "warning": "#66500D", "danger": "#B33A48", "info": "#2F5878", "live": "#B33A48" }
   }
 }

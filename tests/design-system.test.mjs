@@ -97,7 +97,7 @@ test("keeps light and dark semantic token paths identical", async () => {
 test("keeps every canonical token leaf typed and documented", async () => {
   for (const relativePath of ["tokens/primitives.json", "tokens/semantic-light.json", "tokens/semantic-dark.json"]) {
     const document = await readJson(relativePath);
-    assert.equal(document.version, "1.0.0", relativePath);
+    assert.equal(document.version, "2.0.0", relativePath);
     assert.match(document.reviewed, /^\d{4}-\d{2}-\d{2}$/, relativePath);
     const leaves = tokenLeaves(document.tokens);
     assert.ok(leaves.length > 0, `${relativePath} token leaves`);
@@ -119,7 +119,7 @@ test("publishes a recursive schema for canonical token documents", async () => {
 
 test("declares existing brand derivatives with valid sha256 checksums", async () => {
   const manifest = await readJson("brand/manifest.json");
-  assert.equal(manifest.version, "1.0.0");
+  assert.equal(manifest.version, "2.0.0");
   assert.ok(manifest.assets.length >= 4);
 
   for (const asset of manifest.assets) {
@@ -141,9 +141,24 @@ test("declares existing brand derivatives with valid sha256 checksums", async ()
 test("documents the approved identity and message hierarchy", async () => {
   const design = await readFile(path.join(assetsRoot, "DESIGN.md"), "utf8");
 
-  assert.match(design, /Floodlight Volt/);
+  assert.match(design, /Brand Mint/);
   assert.match(design, /Run the club\. Shape the game\./);
   assert.match(design, /The open football manager\./);
   assert.match(design, /Play OpenFoot/);
   assert.match(design, /Explore the Studio/);
+});
+
+test("publishes the warm editorial palette and typography", async () => {
+  const primitives = await readJson("tokens/primitives.json");
+  const light = await readJson("tokens/semantic-light.json");
+  const foundations = await readJson("tokens/foundations.json");
+
+  assert.equal(primitives.tokens.color.communityInk.value, "#21302E");
+  assert.equal(primitives.tokens.color.brandMint.value, "#B0EC9C");
+  assert.equal(light.tokens.canvas.value, "#F5F3EF");
+  assert.equal(light.tokens.lavender.value, "#EEE8F8");
+  assert.equal(light.tokens.peach.value, "#FFE2D7");
+  assert.equal(foundations.type.interface, "Figtree");
+  assert.equal(foundations.type.editorial, "Newsreader");
+  assert.equal(foundations.type.technical, "Geist Mono");
 });
