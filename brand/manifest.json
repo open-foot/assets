@@ -1,76 +1,76 @@
 {
   "version": "2.0.0",
-  "revision": "floodlight-volt-1.0.0",
+  "revision": "warm-editorial-2.0.1",
   "identity": "footballer-and-ball",
   "assets": [
     {
       "path": "brand/mark/openfoot-mark.svg",
       "classification": "canonical",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
-      "sha256": "e6eed8737b5205e4728d3c1bf94eb43b63b1feb9862d3b0464b5785bf48dec10"
+      "sha256": "edfdac3a142e7464b41d1d3990ee40119b601897b446a98fab3e4bc787f6b8f2"
     },
     {
       "path": "brand/mark/openfoot-mark-inverse.svg",
       "classification": "canonical",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
-      "sha256": "ec971113299915ec96e6a475f55b6e67dcc77cb7101b374b9dcaad7a6aca13f7"
+      "sha256": "2e8cfc64accfa239a962f4f85d4a30ba487b117e0a1b08131b2e03fa7f477771"
     },
     {
       "path": "brand/lockup/openfoot-lockup.svg",
       "classification": "canonical",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 3000,
       "height": 1080,
-      "sha256": "f4b62bf2bfbb7432dc564353e0b03e67851cdb64f85f857659b643d05845a75e"
+      "sha256": "da146bf54e51cf21e5886dca3a68bd49f77fefcaf0ae10e580450c95bc983017"
     },
     {
       "path": "brand/lockup/openfoot-lockup-inverse.svg",
       "classification": "canonical",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 3000,
       "height": 1080,
-      "sha256": "ed4287d11d118b2e11140ff91a8615659b9188af6d5efbb667360a3207086b3e"
+      "sha256": "c6c4a91a7ff5ab28acc96e821480db4bc4c11b6a545a9e429e2b4aae5c37c2c4"
     },
     {
       "path": "brand/favicon/source.svg",
       "classification": "derivative",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
-      "sha256": "304ea2f6fad3fb955867d4fd733b62669e4c0380148f0b95ad54174bec9f7fae"
+      "sha256": "beb2c86ce023bdf6d414669e945f226d7e66964a8d290eadca73d43332faec21"
     },
     {
       "path": "brand/app-icon/source.svg",
       "classification": "derivative",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
-      "sha256": "304ea2f6fad3fb955867d4fd733b62669e4c0380148f0b95ad54174bec9f7fae"
+      "sha256": "beb2c86ce023bdf6d414669e945f226d7e66964a8d290eadca73d43332faec21"
     },
     {
       "path": "brand/social/cover.svg",
       "classification": "derivative",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1280,
       "height": 640,
-      "sha256": "032117d59fc358f48b3fffa542208050c4d3d3005964dd8c58f0cf25db6d183d"
+      "sha256": "27645a8b0f2b60b03f6a97705e065aa18a718e725e93c1c213de30d3dc81543f"
     },
     {
       "path": "brand/generated/icon-volt.png",
       "classification": "derivative",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
       "sha256": "a22b4118f9f80922c2502d0da9beaa792c6da71a1d4a960eb0e734f0a9d7aa07"
@@ -79,7 +79,7 @@
       "path": "brand/generated/favicon-volt.png",
       "classification": "derivative",
       "purpose": "approved OpenFoot brand asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
       "sha256": "a22b4118f9f80922c2502d0da9beaa792c6da71a1d4a960eb0e734f0a9d7aa07"
@@ -88,7 +88,7 @@
       "path": "dark-logo.png",
       "classification": "legacy-reference",
       "purpose": "preserved migration reference; not an active product asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1774,
       "height": 887,
       "sha256": "ce8e92c0bb16bfede14b04edce8e55a8a8e32f49aeb23887504d984376c94810"
@@ -97,7 +97,7 @@
       "path": "light-logo.png",
       "classification": "legacy-reference",
       "purpose": "preserved migration reference; not an active product asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1774,
       "height": 887,
       "sha256": "c2ad35764e43cefdb2d9c6081e859db96ab05f6880c90c1ae3353bb6d8bf6afa"
@@ -106,7 +106,7 @@
       "path": "favicon.png",
       "classification": "legacy-reference",
       "purpose": "preserved migration reference; not an active product asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1080,
       "height": 1080,
       "sha256": "8077e7f4f4031c8f4f9375e93901686f31a9db28ae011b04c04ee5bb94685897"
@@ -115,7 +115,7 @@
       "path": "cover.png",
       "classification": "legacy-reference",
       "purpose": "preserved migration reference; not an active product asset",
-      "sourceRevision": "floodlight-volt-1.0.0",
+      "sourceRevision": "warm-editorial-2.0.1",
       "width": 1280,
       "height": 640,
       "sha256": "6c66627042b2edf39098cf12d728dabeb153b4aef839e8d5e4609509f17406f9"
