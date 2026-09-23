@@ -62,8 +62,8 @@ scale tops out at `75.8px`, section headings at `56.8px`, body copy at `18px`,
 and compact product forms at `14.3px`. Geist Mono supports technical and
 comparable football data. Numerical football data uses tabular figures. Fonts
 are locally served; the interface must not depend on a runtime request to a font
-CDN. Stolzl is not redistributed because it requires its own license; Figtree
-uses the same measured layout roles until a licensed source is available.
+CDN. Manrope is the shared open-source display typeface
+across projects; Figtree continues to cover every role here until that changes.
 
 ## Shape, depth, icons, and motion
 
